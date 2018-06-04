@@ -21,11 +21,14 @@ body {
 
 .news h1 {
     margin: 0;
-    margin-bottom: 23%;
+    /*margin-bottom: 24%;*/
 }
 
 .news-cont {
     border: 1px solid #999;
+    padding-bottom: 20%;
+    position: relative;
+    margin-top: 20%;
 }
 
 .news-cont h2 {
