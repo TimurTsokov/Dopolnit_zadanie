@@ -12,33 +12,63 @@ body {
     min-height: 100%;
     padding: 3%;
 }
-.news{
-    width: 20%;
+
+.news {
+    width: 19%;
     float: left;
+    margin-right: 1%;
 }
-.content{
+
+.news h1 {
+    margin: 0;
+    margin-bottom: 23%;
+}
+
+.news-cont {
+    border: 1px solid #999;
+}
+
+.news-cont h2 {
+    margin-top: 0;
+}
+
+.content {
     width: 80%;
     float: right;
 }
-.nav{
+
+.content h2 {
+    color: #999999;
+    font-size: 1.3rem;
+}
+
+.nav {
     list-style-type: none;
     padding: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+
     /*margin: 1%;*/
 }
-.nav li{
+
+.nav li {
     display: inline-block;
+    padding-right: 2%;
 
 }
-.nav li a{
+
+.nav li a {
     text-decoration: none;
+    color: #000;
 }
 
 .row {
     /*margin: 0 auto;*/
     font-size: 0;
     max-width: 1180px;
-    width: 90%;
+    width: 100%;
 }
+
 .item {
     font-size: 1.6rem;
     display: inline-block;
@@ -48,12 +78,16 @@ body {
     position: relative;
     /*overflow: hidden;*/
 }
+
 .item a {
     display: inline-block;
     position: absolute;
-    top: 0; right: 0;
-    left: 0; bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
+
 .item__image {
     position: absolute;
     left: 50%;
@@ -65,13 +99,37 @@ body {
 
 .item__overlay {
     position: absolute;
-    top: 0; right: 0;
-    left: 0; bottom: 0;
-    background-image: linear-gradient(to top, rgba(0,0,0, .1), transparent);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .1), transparent);
 }
-.title{
+
+.title {
     position: absolute;
     top: 100%;
-
+    color: black;
+    font-weight: 700;
 }
+
+.title p {
+    margin: 0;
+}
+
+.title h3 {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+.text-bold {
+    font-size: 1.7rem;
+}
+
+.text-norm {
+    font-weight: 400;
+    color: #222;
+}
+
 
