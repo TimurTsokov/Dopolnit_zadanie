@@ -33,8 +33,12 @@ body {
 
 .news-cont h2 {
     margin-top: 0;
+    text-transform: uppercase;
 }
 
+p > strong {
+    text-transform: uppercase;
+}
 .content {
     width: 80%;
     float: right;
@@ -43,6 +47,7 @@ body {
 .content h2 {
     color: #999999;
     font-size: 1.3rem;
+    text-transform: uppercase;
 }
 
 .nav {
@@ -97,16 +102,17 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: auto;
+    /*height: auto;*/
 }
 
 .item__overlay {
     position: absolute;
-    top: 0;
+    top: 90%;
     right: 0;
     left: 0;
     bottom: 0;
     background-image: linear-gradient(to top, rgba(0, 0, 0, .1), transparent);
+    z-index: 10;
 }
 
 .title {
@@ -124,6 +130,7 @@ body {
     font-size: 1.8rem;
     margin: 0;
     margin-bottom: 1%;
+    text-transform: uppercase;
 }
 
 .text-bold {
